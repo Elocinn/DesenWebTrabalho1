@@ -1,0 +1,84 @@
+
+<!-- Feito por Nicole dia 08/02/2024 Currículo Simples-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Currículo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles.css"> 
+
+    <style>
+        .two-columns {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+        }
+
+        .two-columns > div {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="name">Nicole Carvalho Lisboa</h1>
+        <div class="contact-info">
+            <p>Email: nclisboa@sga.pucminas.br </p>
+            <p>RA: 749820 </p>
+            <p>Endereço: R. Santo Quirino, Poços de Caldas</p>
+        </div>  
+    </header>
+
+    <main class="container"> 
+        <section>
+            <img src="dark-g.png" alt="Descrição da imagem" style="display: block; margin: 0 auto; max-width: 100%; height: auto;">
+            <h2>Curriculum Vitae para ...</h2>
+            <p>Estudante de Ciência da Computação procurando oportunidades para desenvolver habilidades técnicas e adquirir experiência prática em uma empresa inovadora no setor de tecnologia.</p>
+        </section>
+
+        <section class="two-columns">
+            <div>
+                <h2>Educação</h2>
+                        <strong>Modalidade:</strong> Presencial<br>
+                        <strong>Título do Curso:</strong> Ciências da Computação<br>
+                        <strong>Instituição:</strong> PUC MG Poços de Caldas<br>
+                        <strong>Local:</strong> Poços de Caldas, MG<br>
+                        <strong>Período:</strong> 2.2021 - 1.2025 (Previsão) <br>
+                        <strong>Cursos Relevantes:</strong> Introdução à Programação, Estruturas de Dados, Algoritmos, Desenvolvimento de Software, Sistemas Operacionais, Banco de Dados, Inteligência Artificial, Segurança da Informação.<br>
+            </div>
+            <div>
+                <h2>Qualificações</h2>
+                <ul>
+                    <li>Inglês - Fluente</li>
+                    <li>Português - Fluente</li>
+                    <li>Linguagens de Programação: Java, Python, C++, JavaScript, SQL</li>    
+                    <li>Ferramentas: Git, Docker, Visual Studio Code</li>
+                    <li>Bancos de Dados: MySQL</li>
+                    <li>Sistemas Operacionais: Windows, Linux</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Experiência Profissional</h2>
+            <ul>
+                <li>Suporte II - eSST Soluções (08/2024 - )</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Comunicação Eficaz: Demonstro habilidades de comunicação eficaz tanto verbalmente quanto por escrito, facilitando a colaboração e o entendimento em equipes multidisciplinares.</li>
+                <li>Adaptabilidade e Flexibilidade: Sou capaz de me adaptar rapidamente a novos ambientes e situações, mantendo uma mente aberta para novas ideias e perspectivas, o que me permite enfrentar desafios com facilidade.</li>
+                <li>Trabalho em Equipe: Possuo habilidades sólidas de trabalho em equipe, contribuindo ativamente para o sucesso do grupo, ouvindo e considerando as opiniões dos outros e colaborando para alcançar objetivos comuns.</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
+
+
